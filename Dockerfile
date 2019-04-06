@@ -10,7 +10,7 @@ RUN \
         cuda-samples-$CUDA_PKG_VERSION \
   \
     && cd /usr/local/cuda/samples/1_Utilities/deviceQuery \
-    && make -j $(nproc) \
+    && make -j$(nproc) \
   \
     && rm -rf /var/lib/apt/lists/*
 
