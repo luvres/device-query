@@ -11,3 +11,6 @@ docker run --rm --runtime=nvidia -ti izone/device-query
 ```
 docker build -t izone/device-query .
 ```
+```
+docker build -t izone/device-query:9.2 ./9.2/
+```
