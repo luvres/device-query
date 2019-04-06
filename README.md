@@ -3,7 +3,7 @@
 
 ### Run (nvidia-docker v2)
 ```
-docker run --rm --runtime=nvidia -ti izone/device-query
+docker run --rm --runtime=nvidia izone/device-query
 ```
 ### Run (nvidia-docker)
 ```
