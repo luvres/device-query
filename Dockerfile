@@ -15,6 +15,3 @@ RUN \
     && rm -rf /var/lib/apt/lists/*
 
 CMD /usr/local/cuda/samples/1_Utilities/deviceQuery/deviceQuery
-
-# docker build -t izone/cuda:device-query .
-# docker run --rm --runtime=nvidia -ti izone/cuda:device-query
