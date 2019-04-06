@@ -1,9 +1,13 @@
 ## deviceQuery for CUDA
 -----
 
-### Run
+### Run (nvidia-docker v2)
 ```
 docker run --rm --runtime=nvidia -ti izone/device-query
+```
+### Run (nvidia-docker)
+```
+nvidia-docker run --rm izone/device-query
 ```
 
 -----
